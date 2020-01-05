@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // add active class on scroll
     isContentScrolling = setTimeout(() => {
-      header.forEach(nav => {
+      for (const nav of header) {
         const elem = document.getElementById(nav.scrollToId);
         if (isVisible(elem)) {
           const section = document.getElementById(nav.scrollToId);
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
           // adding active class to nav
           if (link) addActiveClass(link, 'current-link');
         }
-      });
+      }
     }, 60);
   }, false);
 
