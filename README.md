@@ -1,13 +1,17 @@
-# Landing Page Project
+# Landing Page
 
-## Table of Contents
+Dynamically building landing page.
 
-* [Instructions](#instructions)
+## Technologies
 
-## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+```bash
+html css js
+```
 
-To get started, open `js/app.js` and start building out the app's functionality
+## Compatibility
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+Both web and mobile.
+
+## Live demo
+You can explore the site from [here](https://landing-page-vanilla-js.netlify.com/)
