@@ -83,12 +83,15 @@ document.addEventListener('DOMContentLoaded', () => {
       for (const nav of header) {
         const elem = document.getElementById(nav.scrollToId);
         if (isVisible(elem)) {
+          console.log(nav.scrollToId)
+          const elementId = nav.scrollToId
           const section = document.getElementById(nav.scrollToId);
           const link = document.getElementById(`a-${nav.scrollToId}`);
           // adding active class to section
           if (section) addActiveClass(section, 'current-section');
           // adding active class to nav
           if (link) addActiveClass(link, 'current-link');
+          break
         }
       }
     }, 60);
